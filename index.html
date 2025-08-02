@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPCLUES</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* DOWNLOAD SECTION */
+      .inf {
+        text-align: center;
+        margin: 1rem;
+      }
+      .dowl {
+        color: rgb(66, 63, 63);
+        text-decoration: none;
+      }
+      @media (max-width: 360px) {
+        .inf {
+          display: none;
+        }
+      }
+      /* MORE STUFF SECTION */
+      .MORE {
+        background-color: rgb(219, 218, 218);
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-top: 3rem;
+      }
+      .first {
+        display: flex;
+        gap: 1rem;
+      }
+      .btn1 {
+        text-decoration: none;
+        color: rgb(66, 63, 63);
+        font-weight: 600;
+      }
+      @media (max-width: 920px) {
+        .MORE {
+          display: none;
+        }
+      }
+      /*  NAVBAR */
+      .nav-link {
+        color: #000;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+      .nav-link:hover {
+        color: #000;
+      }
+      @media (max-width: 1316px) {
+        .modal-xl {
+          display: none;
+        }
+      }
+      /* HERO SECTION */
+      .color {
+        background-color: antiquewhite;
+      }
+      .size button {
+        font-weight: 300;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        background-color: rgb(244, 225, 58);
+        border: 1px solid rgb(244, 225, 58);
+        border-radius: 10rem;
+        padding: 1rem;
+      }
+      .size h1 {
+        font-size: 4rem;
+        font-weight: bolder;
+      }
+      .size p {
+        font-size: 1.4rem;
+        color: #5a5757;
+        margin-top: 1rem;
+      }
+      .butter-pic {
+        width: 400px;
+        height: 500px;
+      }
+      @media (max-width: 1316px) {
+        .butter-pic {
+          display: none;
+        }
+      }
+      @media (max-width: 576px) {
+        .size h1 {
+          font-size: 2rem;
+        }
+        .size p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- DOWNLOAD SECTION -->
+    <p class="inf">
+      <span class="downl">
+        <a href="#" class="dowl">Sell with us</a> |
+        <a href="#" class="dowl">Contact us</a> |
+        <a href="#" class="dowl">Donwload App:</a>
+        <i class="bi bi-windows"></i> <i class="bi bi-android2"></i
+        ><i class="bi bi-apple"></i
+      ></span>
+    </p>
+
+    <!-- MORE STUFF SECTION -->
+    <section class="MORE">
+      <div class="first">
+        <a class="btn1" href="#">MOBILE & MORE</a>
+        <a class="btn1" href="#">MEN</a>
+        <a class="btn1" href="#">WOMAN</a>
+        <a class="btn1" href="#">APPLIANCE</a>
+      </div>
+      <div class="first">
+        <a class="btn1" href="#">SPORTS & MORE</a>
+        <a class="btn1" href="#">ESSENTIALS</a>
+        <a class="btn1" href="#">OFFERS</a>
+        <a class="btn1" href="#">GLOBAL SHOPPING</a>
+      </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <div class="container py-3 mt-4">
+      <div class="row align-items-center">
+        <!-- Logo -->
+        <div class="col-auto">
+          <img src="All imgs/logo.png" alt="Shopclues Logo" />
+        </div>
+
+        <div class="col">
+          <form class="d-flex">
+            <input
+              class="form-control rounded-pill px-4"
+              type="search"
+              placeholder="Search all categories"
+              aria-label="Search" />
+          </form>
+        </div>
+
+        <!-- Icons and Sign In -->
+        <div class="col-auto d-flex align-items-center gap-3">
+          <i class="bi bi-geo-alt"></i>
+          <i class="bi bi-bell"></i>
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-cart"></i>
+          <button class="btn">Sign In</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg modal-xl bg-white mt-3">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3">
+            <!--  -->
+            <!-- Regular links -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"> All products </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> All Fashion </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Footwear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Refurbished Mobile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Express Shipping</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jaw Dropping Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kitchen & Dinning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Audio & Headphones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  HERO SECTION  -->
+    <section class="color">
+      <div class="mt-5 container d-flex justify-content-around">
+        <div class="size">
+          <button>WEEKEND DISCOUNT</button>
+          <h1 class="fs-sm-6">
+            BEST DEALS <br />
+            ENDLESS DEALS
+          </h1>
+          <p class="fs-sm-6">
+            Discover the best deals across endless options, <br />
+            offering quality and unbeatable varienty daily.
+          </p>
+          <button>Explore Deals</button>
+        </div>
+        <img class="butter-pic" src="All imgs/Butter.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ALL CARDS -->
+    <div class="container py-5 mt-3">
+      <h2 class="mb-4 fw-bold">BRANDED DEAIS</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <!-- Card 1-->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/c1.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 1" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Body Massager, Wireless Portable Neck...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $12.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$13.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">6% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/c2.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                JSZOOM RUNNING 106 Sports Shoes...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $15.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$17.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">8% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/c3.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                AXE Twist Celebaration Fragrance Crazy...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $10.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$11.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">5% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/c4.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Wooden Spoon Kitchen Tool Set of 6...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $14.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$17.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">8% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+
+    <!-- CLOTHING -->
+    <div class="container mb-5">
+      <h2 class="fw-bold mb-3">CLOTHING</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <!-- C1 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/d1.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Odoky Olive White Round T-shirt for...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $12.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$13.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">6% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- C2 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/d2.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Men Blue / Black Checked Full Sleeve...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $14.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$17.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">8% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- C3 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/d3.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Arock Men Regular Fit Blue Jeans...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $13.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$14.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">10% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- C4 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/d4.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 2" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">Style Maniac DZ09 With Mobile...</h6>
+              <p class="mb-1 fw-bold">
+                $70.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$75.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">3% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 bg-light">
+        <button class="btn btn-warning fw-bold">
+          All Category <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- DEALS OF THE DAY SECTION -->
+    <div class="container">
+      <h2 class="fw-bold">Deals of the day</h2>
+      <p>Don't miss this opportunity at a special discount just for today!</p>
+    </div>
+
+    <div class="container py-5">
+      <div class="row g-3">
+        <!-- Sunglasses Deal (larger image) -->
+        <div class="col-12 col-md-6">
+          <div class="p-3 bg-light rounded text-center h-100">
+            <img
+              src="All imgs/g1.png"
+              class="img-fluid mb-3 size"
+              alt="Sunglasses" />
+          </div>
+        </div>
+
+        <!-- Fashion -->
+        <div class="col-6 col-md-3">
+          <div class="bg-light rounded p-2 h-100 border-radius">
+            <img
+              src="All imgs/g2.png"
+              class="img-fluid rounded"
+              alt="Fashion" />
+          </div>
+        </div>
+
+        <!-- iPhone -->
+        <div class="col-6 col-md-3">
+          <div class="bg-light rounded p-2 h-100">
+            <img src="All imgs/g3.png" class="img-fluid rounded" alt="iPhone" />
+          </div>
+        </div>
+
+        <!-- Shoes -->
+        <div class="col-6 col-md-3">
+          <div class="bg-light rounded p-2 h-100">
+            <img src="All imgs/g4.png" class="img-fluid rounded" alt="Shoes" />
+          </div>
+        </div>
+
+        <!-- Model Sitting -->
+        <div class="col-6 col-md-3">
+          <div class="bg-light rounded p-2 h-100">
+            <img src="All imgs/g5.png " class="img-fluid rounded" alt="Model" />
+          </div>
+        </div>
+
+        <!-- Countdown & Honey Promo -->
+        <div class="col-12 col-md-6">
+          <div class="bg-warning-subtle rounded p-4 h-100">
+            <!-- Honey image -->
+            <div>
+              <img src="All imgs/g6.png" class="img-fluid" alt="Raw Honey" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--GADEGETS STORE SECTION   -->
+    <div class="container flx">
+      <h3>YOUR GADEGETS STORE</h3>
+      <a href="#">View All </a>
+    </div>
+
+    <div class="container py-2 mb-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <!-- S1 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/s1.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 1" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Foldable Mobile Stand for Smartphones...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $8.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$13.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">6% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- S2 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/s2.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 1" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                HBS-730 in the Ear Bluetooth Neckband..
+              </h6>
+              <p class="mb-1 fw-bold">
+                $19.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$20.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">7% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- S3 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/s3.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 1" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">
+                Zeb-Duke 2 Wireless Headphones That...
+              </h6>
+              <p class="mb-1 fw-bold">
+                $24.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$25.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">6% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+        <!-- S4 -->
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm position-relative">
+            <img
+              src="All imgs/s4.png"
+              class="card-img-top p-3 bg-light"
+              alt="Product 1" />
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-star-fill text-warning me-1"></i>
+                <small class="text-muted">4.5 (21k)</small>
+              </div>
+              <h6 class="card-title mb-1">Power Bank for Smartphones...</h6>
+              <p class="mb-1 fw-bold">
+                $15.00
+                <span
+                  class="text-muted text-decoration-line-through ms-2 fw-normal"
+                  >$17.00</span
+                >
+              </p>
+              <small class="text-success fw-bold">9% off</small>
+            </div>
+            <button
+              class="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+              <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GIFTS SECTION -->
+    <div class="d-flex justify-content-center m-1">
+      <img class="GIFT" src="All imgs/z.png" alt="" />
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-light mt-5">
+      <section class="container py-5">
+        <div class="row gy-4">
+          <!-- Shopper Central -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold mb-2">Shopper Central</li>
+              <li>Easy Returns & Replacement</li>
+              <li>Sign in / Register</li>
+              <li>Our Policies</li>
+              <li>CluesBucks</li>
+              <li>Payment Options</li>
+              <li>ShopClues Surety</li>
+              <li>Service Centers</li>
+              <li>FAQ (Help)</li>
+              <li>User Agreement</li>
+            </ul>
+          </div>
+
+          <!-- Merchant Panel -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold mb-2">Merchant Panel</li>
+              <li>How to sell</li>
+              <li>Commission Structure</li>
+              <li>Fulfilment Policy</li>
+              <li>Policies & Rules</li>
+              <li>User Agreement</li>
+              <li>Testimonials</li>
+              <li>Seller Submit</li>
+              <li>Merchant Blog</li>
+              <li>Developer Resources</li>
+            </ul>
+          </div>
+
+          <!-- About Us -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold mb-2">About Us</li>
+              <li>History</li>
+              <li>Band of Trust</li>
+              <li>Awards</li>
+              <li>Careers</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold mb-2">Contact Us</li>
+              <li>Merchant Support</li>
+              <li>Bulk Orders</li>
+              <li>Press</li>
+            </ul>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <ul
+              class="list-unstyled d-flex justify-content-lg-end justify-content-start gap-3 pt-2">
+              <li><i class="bi bi-facebook fs-3"></i></li>
+              <li><i class="bi bi-linkedin fs-3"></i></li>
+              <li><i class="bi bi-youtube fs-3"></i></li>
+              <li><i class="bi bi-twitter-x fs-3"></i></li>
+              <li><i class="bi bi-instagram fs-3"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
